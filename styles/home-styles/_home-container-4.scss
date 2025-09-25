@@ -1,0 +1,48 @@
+.homecontainer4 {
+
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-column-gap: 10px;
+    grid-template-rows: repeat(32, 1fr);
+    grid-row-gap: 10px;
+    min-height: 1110px;
+    max-width: 1960px;
+    width: 100%;
+}
+
+.grid-home-1 {
+    grid-area: 1/1/8/4;
+}
+.grid-home-2 {
+
+}
+.grid-home-3 {
+
+}
+.grid-home-4 {
+
+}
+.grid-home-5 {
+
+}
+.grid-home-6 {
+
+}
+.grid-home-8 {
+
+}
+.grid-home-9 {
+
+}
+.grid-home-10 {
+
+}
+.grid-home-11 {
+
+}
+.grid-home-12 {
+
+}

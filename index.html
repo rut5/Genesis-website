@@ -18,9 +18,9 @@ The different pages need to be linked to each other through the navigation.
 This project needs to be created/ styled using Sass.  
 Save your project in a new repository and send the link to your teacher. -->
 
-<body>
+<body class="body">
 
-    <main>
+    <main class="main">
 
         <header class="header">
 
@@ -43,13 +43,13 @@ Save your project in a new repository and send the link to your teacher. -->
 
         <section class="home-container-1">
 
-                <div class="textblock-1">
-                    <p><span class="purple-text">Shooting Stars</span></p>
-                    <h1 class="main-title">Hello, I'm Bakhtiyar Sattarov,
-                        <span class="purple-text">product designer</span> with experience
-                        in studios and startups
-                    </h1>
-                </div>
+            <div class="textblock-1">
+                <p class="shooting-stars"><span class="purple-text">Shooting Stars</span></p>
+                <h1 class="main-title">Hello, I'm Bakhtiyar Sattarov,
+                    <span class="purple-text">product designer</span> with experience
+                    in studios and startups
+                </h1>
+            </div>
 
             <div class="textblock-2">
                 <hr class="hr1">
@@ -62,7 +62,20 @@ Save your project in a new repository and send the link to your teacher. -->
 
         <section class="home-container-2">
 
-            <!-- put images here -->
+            <div class="grid-gallery">
+                <div class="grid-home-1 img"><img src="images/home-images/column1-1.jpg"></div>
+                <div class="grid-home-2 img"><img src="images/home-images/column1-2.jpg"></div>
+                <div class="grid-home-3 img"><img src="images/home-images/column1-3.jpg"></div>
+                <div class="grid-home-4 img"><img src="images/home-images/column1-4.jpg"></div>
+                <div class="grid-home-5 img"><img src="images/home-images/column2-1.jpg"></div>
+                <div class="grid-home-6 img"><img src="images/home-images/column2-2.jpg"></div>
+                <div class="grid-home-7 img"><img src="images/home-images/column2-3.jpg"></div>
+                <div class="grid-home-8 img"><img src="images/home-images/column2-4.jpg"></div>
+                <div class="grid-home-9 img"><img src="images/home-images/column3-1.jpg"></div>
+                <div class="grid-home-10 img"><img src="images/home-images/column3-2.jpg"></div>
+                <div class="grid-home-11 img"><img src="images/home-images/column3-3.jpg"></div>
+                <div class="grid-home-12 img"><img src="images/home-images/column3-4.jpg"></div>
+            </div>
 
         </section>
 
@@ -97,20 +110,7 @@ Save your project in a new repository and send the link to your teacher. -->
 
         <section class="home-container-4">
 
-            <div class="grid-gallery"> 
-                <div class="grid-home-1"><img src="home-images/column1-1.jpg"></div>
-                <div class="grid-home-2"><img src="home-images/column1-2.jpg"></div>
-                <div class="grid-home-3"><img src="home-images/column1-3.jpg"></div>
-                <div class="grid-home-4"><img src="home-images/column1-4.jpg"></div>
-                <div class="grid-home-5"><img src="home-images/column2-1.jpg"></div>
-                <div class="grid-home-6"><img src="home-images/column2-2.jpg"></div>
-                <div class="grid-home-7"><img src="home-images/column2-3.jpg"></div>
-                <div class="grid-home-8"><img src="home-images/column2-4.jpg"></div>
-                <div class="grid-home-9"><img src="home-images/column3-1.jpg"></div>
-                <div class="grid-home-10"><img src="home-images/column3-2.jpg"></div>
-                <div class="grid-home-11"><img src="home-images/column3-3.jpg"></div>
-                <div class="grid-home-12"><img src="home-images/column3-4.jpg"></div>
-            </div>
+            <!-- might be missing something here -->
 
             <hr>
 
@@ -120,26 +120,35 @@ Save your project in a new repository and send the link to your teacher. -->
 
         </section>
 
-        <footer class="home-footer">
+        <footer class="footer">
 
-            <div class="logo">
-                <p class="text-bold">Genesis</p>
-            </div>
+            <section class="footer-box">
 
-            <nav class="nav">
+                <div class="logo">
+                    <p class="text-bold">Genesis</p>
+                </div>
 
-            </nav>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#" class="boldnav">Projects</a></li>
+                        <li><a href="#" class="boldnav">Contact</a></li>
+                    </ul>
+                </nav>
 
-            <div class="home-icons">
+                <div class="footer-icons">
+                    <i class="fa-brands fa-dribbble"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
 
-                <!-- add icons from font awesome-->
-
-            </div>
+            </section> 
 
         </footer>
 
     </main>
 
 </body>
+
+<script src="https://kit.fontawesome.com/16ea9a12e7.js" crossorigin="anonymous"></script>
 
 </html>

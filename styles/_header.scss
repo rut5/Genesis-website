@@ -1,4 +1,7 @@
 .header {
+    min-height: 30px;
+    max-width: 1109px;
+    width: 100%;
     margin-top: 61px;
     margin-bottom: 96px;
     margin-left: 126px;
@@ -9,9 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 30px;
-    max-width: 1110px;
-    width: 100%;
 }
 
 .logo {
@@ -36,7 +36,7 @@
 .nav {
     display: flex;
     justify-content: flex-end;
-    align-items: space-between;
+    align-items: center;
     height: auto;
     width: 100%;
 }
@@ -44,8 +44,7 @@
 .nav ul {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-around;*/
-    margin-right: 29px;
+    padding: 0;
 }
 
 .nav ul li {
@@ -53,6 +52,7 @@
     max-width: 67px;
     width: 100%;
     list-style-type: none;
+    margin-right: 29px;
 }
 
 .boldnav {
@@ -61,12 +61,5 @@
     font-weight: 700;
     font-style: normal;
     color: #111111;
+    text-decoration: none;
 }
-
-/*
-.mulish-<uniquifier> {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */

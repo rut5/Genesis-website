@@ -1,3 +1,26 @@
+.home-container-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 71px;
+}
+
+.container-3-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 110px;
+    max-width: 1100px;
+    width: 100%;
+    margin-left: 126px;
+} 
+
+.textblock-3 {
+    min-height: 106px;
+    max-width: 635px;
+    width: 100%;
+}
+
 .text-bold {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
@@ -10,20 +33,58 @@
 
 .links-container-3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-}
+    margin-top: 25px;
+    margin-left: 94px;
+    margin-right: 158px;
+} /* cant get the text on the same line */
 
-/*
 .linkblock-1 {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .linkblock-2 {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 70px;
 }
 
-.colornav {
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+    min-height: 106px;
+    max-width: 150px;
+    width: 100%;
+}
 
+.nav ul li {
+    width: auto;
+    margin-top: 10px;
+}
+
+.stylenav {
+    text-decoration: none;
+    color: #111111;
+    opacity: 60%;
+    font-size: 18px;
+}
+
+.links-container-3 ul,
+.linkblock-1 ul,
+.linkblock-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-container-3 li {
+    margin: 10px;
 }

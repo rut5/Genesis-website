@@ -105,9 +105,10 @@
   display: flex;
   align-items: center;
   max-height: 30px;
-  margin-top: 65px;
+  margin-top: 10px; /* i dont know why but i need this for the nav to be on the same horizontal level as the rest of the footer items */
   margin-right: 95px;
-} /* had to add margin top to get the navs vertically centered with the rest of the items */
+}
+
 .nav ul {
   display: flex;
   flex-direction: row;
@@ -209,14 +210,44 @@ cause ive used it in many more places than the nav, but now its too messy to go 
 
 .p-textblock-2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 343px;
   max-width: 335px;
   width: 100%;
+  margin-left: 139px;
 }
 
-.p-row-1 {
+.p-row {
+  display: flex;
   justify-content: space-between;
   margin-bottom: 18px;
   border-bottom: 1px solid rgba(216, 216, 216, 0.5);
 }
+
+.p-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-image {
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 61px;
+}
+
+.p-textblock-3 {
+  max-width: 1110px;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 132px;
+}
+/*# sourceMappingURL=project.css.map */

@@ -1,0 +1,79 @@
+@import 'header'; 
+@import 'footer';
+
+
+.main-title {
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.text-thin {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #111111;
+  opacity: 60%;
+}
+
+.boldnav {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #111111;
+    text-decoration: 0;
+} /* ive realised i shouldve named this class something else without "nav" in the name, 
+cause ive used it in many more places than the nav, but now its too messy to go back and change it everywhere
+ (i shouldve planned ahead better) */
+
+.gray-bold {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #111111;
+    opacity: 50%;
+    text-decoration: 0;
+}
+
+/* big container */
+.p-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-textblock-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 126px;
+}
+
+.p-textblock-1-1 {
+    min-height: 130px;
+    max-width: 495px;
+    width: 100%;
+}
+
+.p-textblock-1-2 {
+    min-height: 222px;
+    max-width: 635px;
+    width: 100%;
+}
+
+.p-textblock-2 {
+    display: flex;
+    flex-direction: row;
+    min-height: 343px;
+    max-width: 335px;
+    width: 100%;
+}
+
+.p-row-1 {
+    justify-content: space-between;
+    margin-bottom: 18px;
+    border-bottom: 1px solid rgba($color: #D8D8D8, $alpha: 0.5)
+}

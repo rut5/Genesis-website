@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../styles/contact-styles/contact.scss">
+    <link rel="stylesheet" href="../styles/contact-styles/contact.css">
     <link rel="stylesheet" href="../styles/normalize.css">
 
 </head>
@@ -18,30 +18,100 @@
 
     <main>
 
+        <header class="header">
+
+            <section class="header-box">
+
+                <div class="logo">
+                    <p class="text-bold">Genesis</p>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="projects.html" class="boldnav">Projects</a></li>
+                        <li><a href="contact.html" class="boldnav">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+
+        </header>
+
         <section class="c-container-1">
 
-            <div>
+            <div class="c-block">
 
                 <div class="c-textblock">
 
                     <h1 class="main-title">Full set of great features to make your product fresh</h1>
                     <p class="text-thin">Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
-                    
-                </div>
-
-                <div class="c-input">
 
                 </div>
+
+                <form class="form">
+
+                    <section class="form-container">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Name" class="input-style" required>
+                    </section>
+
+                    <section class="form-container">
+                        <div>
+                            <label for="email"></label>
+                            <input type="text" id="email" placeholder="Email" class="input-style" required>
+                        </div>
+                    </section>
+
+                    <section class="form-container">
+                        <div>
+                            <label for="message"></label>
+                            <input type="text" id="message" placeholder="Message" class="input-style" required>
+                        </div>
+                    </section>
+
+                    <div>
+                        <button class="btn">Submit</button>
+                    </div>
+
+                </form>
 
             </div>
 
+            <div>
+                <img src="../images/contact-images/Map.jpg" img class="map-image" alt="map">
+            </div>
 
         </section>
 
+        <footer class="footer">
 
+            <section class="footer-box">
+
+                <div class="logo">
+                    <p class="text-bold">Genesis</p>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="projects.html" class="boldnav">Projects</a></li>
+                        <li><a href="contact.html" class="boldnav">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-icons">
+                    <i class="fa-brands fa-dribbble"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+
+            </section>
+
+        </footer>
 
     </main>
 
 </body>
+
+<script src="https://kit.fontawesome.com/16ea9a12e7.js" crossorigin="anonymous"></script>
 
 </html>

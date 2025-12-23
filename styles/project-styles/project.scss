@@ -17,16 +17,14 @@
   opacity: 60%;
 }
 
-.boldnav {
+.bold {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     color: #111111;
     text-decoration: 0;
-} /* ive realised i shouldve named this class something else without "nav" in the name, 
-cause ive used it in many more places than the nav, but now its too messy to go back and change it everywhere
- (i shouldve planned ahead better) */
+}
 
 .gray-bold {
     font-family: "Mulish", sans-serif;

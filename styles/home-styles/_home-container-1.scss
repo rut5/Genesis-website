@@ -1,7 +1,9 @@
 .home-container-1 {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    overflow-x: hidden;
 }
 
 .textblock-1 {
@@ -9,11 +11,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    min-height: 251px;
     max-width: 635px;
     width: 100%;
-    margin-top: 0px;
-    margin-left: 125px;
 }
 
 .shooting-stars {
@@ -37,21 +36,17 @@
     font-style: bold;
 }
 
-
 .textblock-2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-end;
     min-height: 40px;
     max-width: 212px;
     width: 100%;
     font-size: 18px;
     color: #111111;
     opacity: 60%;
-    margin-top: 205px;
-    /*had to improvise with this margin */
-    margin-left: 190px;
 }
 
 .hr1 {
@@ -71,11 +66,6 @@
     opacity: 60%;
 }
 
-.text-thin-italic {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #111111;
-    opacity: 60%;
-    transform: skew(-10deg); /* couldnt find the italic style so added this trait instead, but it doesnt seem to work for some reason */
+.italic {
+    transform: skew(-10deg); 
 }

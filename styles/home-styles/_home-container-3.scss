@@ -1,23 +1,21 @@
 .home-container-3 {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    margin-top: 71px;
+    width: 100%;
+    margin-top: 70px;
 }
 
 .container-3-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    min-height: 110px;
-    max-width: 1100px;
-    width: 100%;
-    margin-left: 126px;
-    margin-bottom: 85px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+    max-width: 900px;
 } 
 
 .textblock-3 {
-    min-height: 106px;
+    min-height: 100px;
     max-width: 635px;
     width: 100%;
 }
@@ -37,23 +35,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 25px;
-    margin-left: 94px;
-    margin-right: 158px;
-} /* cant get the text on the same line */
+    min-width: 400px;
+} 
 
 .linkblock-1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
 }
 
 .linkblock-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 70px;
+
 }
 
 .nav ul {

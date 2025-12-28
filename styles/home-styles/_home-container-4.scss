@@ -18,27 +18,23 @@
 .hr-box {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
-.container-4-hr {
+.hr {
     color: #D8D8D8;
     box-shadow: none;
-    min-height: 2px;
+    min-height: 1px;
     max-width: 1110px;
     width: 100%;
     margin: 0px;
 }
 
-.textblock-4 {
+.textblock-4, .textblock-5 {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
-}
-
-.textblock-5 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .row { 
@@ -48,17 +44,14 @@
 
 .row-1 {
    max-height: 28px;
+   margin: 0;
 }
 
 .row-2 {
-    margin-top: 25px; /* had to add margin-top to get the rest of the items aligned with the 
-        awwwards/cssdesignawards text, dont know why */
     gap: 160px;
-    margin-bottom: 167px;
 }
 
 .row-3 {
-    margin-top: 25px;
     gap: 80px;
 }
 
@@ -67,6 +60,13 @@
 }
 
 .row-4 {
-    margin-top: 25px;
     gap: 170px;
+}
+
+.text-bold {
+    margin: 0;
+}
+
+.bold, .small-title {
+    margin-top: 15px;
 }

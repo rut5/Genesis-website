@@ -26,13 +26,18 @@
     max-width: 100px;
 }
 
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     max-width: 300px;
-    padding: 0;
+    padding: 0 100px 0 0;
 }
 
 .nav ul {
@@ -40,7 +45,6 @@
     list-style: none;
     gap: 40px;
     padding: 0;
-    margin-bottom: 25px; // to escape default style
 }
 
 .text-bold {
@@ -56,11 +60,27 @@
     display: inline-block;
     font-family: "Mulish", sans-serif;
     font-style: normal;
-    ;
     font-optical-sizing: auto;
     line-height: 1.2;
     text-decoration: none;
     color: #111111;
     margin: 0;
     padding: 0;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    display: inline-block; 
+    margin: 0 10px;       
+}
+
+.footer-icons i {
+    font-size: 30px;      
+    color: black;          
+    transition: transform 0.2s; 
+}
+
+.footer-icons a:hover i {
+    color: #444;           
+    transform: scale(1.1); 
 }

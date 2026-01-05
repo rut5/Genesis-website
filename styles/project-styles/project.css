@@ -64,6 +64,20 @@
   padding: 0;
 }
 
+/* Hover Effects */
+.logo,
+.nav ul li a {
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.logo:hover,
+.nav ul li a:hover {
+  color: #4A4FF2;
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
@@ -150,6 +164,20 @@
 .footer-icons a:hover i {
   color: #444;
   transform: scale(1.1);
+}
+
+/* Hover Effects */
+.logo,
+.nav ul li a {
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.logo:hover,
+.nav ul li a:hover {
+  color: #4A4FF2;
+  transform: scale(1.05);
+  text-decoration: underline;
 }
 
 .header-container, .footer-container {

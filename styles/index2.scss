@@ -1,8 +1,8 @@
 /* write code here instead of index.css */
 /* link every sass file to this file for them to work = partials ? */
 
-@import 'header'; 
-@import 'home-styles/main'; 
+@import 'header';
+@import 'home-styles/main';
 @import 'home-styles/home-container-1';
 @import 'home-styles/home-container-2';
 @import 'home-styles/home-container-3';
@@ -16,10 +16,20 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     min-height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+@media screen and (max-width: 750px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
 }
